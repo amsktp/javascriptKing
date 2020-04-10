@@ -55,10 +55,16 @@
 
 <script type="text/javascript">
 	
-	/*  */
+	/* ul 태그를 찾아서 */
 
+	var ulObj = document.getElementsByTagName('ul');
+	var liObjArr = ulObj[1].getElementsByTagName('li');
+	var myObj = liObjArr[1];
+	myObj.style.border = '1px solid red'; 
 	
+	/* document.getElementsByTagName('ul')[1].getElementsByTagName('li')[1].style.border = '1px solid green'; */
 	
+		
 	
 	
 </script>
