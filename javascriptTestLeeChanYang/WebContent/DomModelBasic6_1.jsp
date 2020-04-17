@@ -42,6 +42,7 @@
 					+ (Math.random()*255) + ')';
 		}
 	}
+	
 
  	function showTagFnc() {
 		var firstDiv = document.getElementById('firstExam');
